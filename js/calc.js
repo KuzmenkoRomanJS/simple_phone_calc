@@ -68,7 +68,7 @@ document.querySelector('.buttons').onclick = (event) => {
                 a = a * b
                 break
             case '/':
-                if (b === '0') {
+                if (b === '0' || b === '00') {
                     out.textContent = 'Error'
                     a = ''
                     b = ''
